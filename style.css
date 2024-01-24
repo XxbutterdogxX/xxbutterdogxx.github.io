@@ -1,1 +1,79 @@
+   <style>
+        body {
+            font-family: Open-sans; 
+            margin: 0;
+            padding: 0;
+            background-color: #C3AE8B;
+        }
 
+        header {
+            background-color: #6A0907;
+            color: #C3AE8B;
+            text-align: center;
+            padding: 1em;
+        }
+        .sidebar {
+          height: 100%;
+          width: 200px;
+          position: fixed;
+          top: 0;
+          left: 0;
+          background-color: #6A0907;
+          padding-top: 20px;
+        }
+
+        .sidebar a {
+          padding: 10px 15px;
+          text-decoration: none;
+          font-size: 18px;
+          color: #C3AE8B;
+          display: block;
+        }
+
+        .sidebar a:hover {
+          color: #FAE5C2;
+        }
+
+
+        section {
+            padding: 20px;
+            max-width: 700px;
+            margin: auto;
+        }
+
+        h2 {
+            color: #6A0907;
+            text-align: center;
+        }
+
+        .pic {
+            border: 1px solid #ccc;
+            border-radius: 1px;
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: white;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .pic:hover {
+            transform: scale(0.99);
+        }
+
+
+        #quote {
+            font-style: italic;
+            margin-top: 20px;
+        }
+
+        nav {
+            margin-top: 20px;
+        }
+
+        nav a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+    </style>
